@@ -13,7 +13,8 @@ public class DepositoCombustibleTest {
 
 	@Test
 	public void testGetDepositoNivel() {
-		DepositoCombustibleTest tank = new DepositoCombustibleTest(40.0,0.0);
+		DepositoCombustible tank = new DepositoCombustible(40.0,0.0);
+		assertEquals(20, 0);
 	}
 
 	@Test
