@@ -13,8 +13,10 @@ public class DepositoCombustibleTest {
 
 	@Test
 	public void testGetDepositoNivel() {
+		double valorNivel=0;
 		DepositoCombustible tank = new DepositoCombustible(40.0,0.0);
-		assertEquals(20, 0);
+		valorNivel = tank.GetDepositoNivel();
+		assertEquals(0,valorNivel,0.01);
 	}
 
 	@Test
